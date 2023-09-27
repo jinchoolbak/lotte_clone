@@ -154,7 +154,7 @@ header {
     max-width: 1500px;
     margin: 0 auto;
     height: 400px;
-    background: url("../images/c1.jpg") no-repeat center / cover;
+    background: url("../images/mainsource/c1.jpg") no-repeat center / cover;
     border-radius: 40px;
     margin-top: 2rem;
 }

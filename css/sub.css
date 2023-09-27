@@ -197,6 +197,10 @@ article {
     color: red;
 }
 
+.t-body {
+    text-align: center;
+}
+
 /*-------------main-end---------*/
 /*-------------footer---------*/
 footer {
