@@ -1,0 +1,270 @@
+@charset "utf-8";
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 16px/1.5 normal "NOTO SANS KR", "Nanum Gothic", sans-serif;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*---------스타일 클래스--------*/
+.d-none {
+    display: none;
+}
+.d-flex {
+    display: flex;
+}
+
+.j-between {
+    justify-content: space-between;
+}
+.j-cneter {
+    justify-content: center;
+}
+
+.g1 {
+    gap: 1rem;
+}
+.g2 {
+    gap: 2rem;
+}
+.g3 {
+    gap: 3rem;
+}
+.g4 {
+    gap: 4rem;
+}
+.g5 {
+    gap: 5rem;
+}
+
+.pl-1 {
+   padding-left: 1rem;
+}
+
+.t-red {
+    color: red;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.bg-white {
+    background: white;
+    height: 230px;
+}
+/*-----------------*/
+/*---------header--------*/
+header {
+    height: 130px;
+    background: #F4F4F4;
+}
+
+.h-top {
+    max-width: 1500px;
+    margin: 0 auto;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: text-bottom;
+}
+
+.h-top .logo {
+    padding-top: 10px;
+}
+
+.h-top .l-text {
+    font-size: 1.2rem;
+}
+
+.login li:nth-child(1) {
+    background: red;
+    color: white;
+    border-radius: 10px;
+    width: 75px;
+    height: 40px;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+.login li:nth-child(2) {
+    color: blue;
+    font-weight: bold;
+}
+
+.login li:nth-child(2) a {
+    border-left: 1px solid black;
+    padding: 0 1rem;
+}
+
+.h-bottom-wrap {
+    background: white;
+    height: 80px;
+}
+
+.h-bottom {
+    max-width: 1500px;
+    margin: 0 auto;
+    line-height: 80px;
+}
+
+.h-bottom .material-symbols-outlined {
+    font-size: 2.5rem;
+    line-height: 80px;
+}
+
+#gnb li {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#gnb li:nth-child(1) {
+    margin-left: 160px;
+}
+/*-------------header-end----*/
+/*-------------title----*/
+section {
+    height: 300px;
+}
+
+.title {
+    text-align: center;
+    padding-top: 4%;
+    line-height: 50px;
+}
+
+.title h2 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.title p {
+    font-size: 1.3rem;
+}
+
+/*-------------title-end----*/
+/*-------------main---*/
+main {
+    background: lightcyan;
+    height: 500px;
+}
+
+article {
+    max-width: 1500px;
+    margin: 0 auto;
+    background: blanchedalmond;
+    height: 500px;
+    margin-top: 3rem;
+}
+
+.t-title p {
+    width: 750px;
+    border-bottom: 2px solid lightgray;
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.t-title p:nth-child(1) {
+    border-bottom: 3px solid red;
+    color: red;
+}
+
+/*-------------main-end---------*/
+/*-------------footer---------*/
+footer {
+    color: gray;
+    height: 300px;
+}
+
+.links {
+    justify-content: center;
+    font-size: .9rem;
+}
+
+.links li {
+    border-right: 1px solid gray;
+    padding: 0 1rem;
+    margin: 1rem 0;
+}
+
+.links li:nth-child(1) {
+    font-weight: bold;
+    color: rgb(99, 99, 99);
+}
+.links li:last-child {
+    border: 0;
+}
+
+.f-wrap {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.f-logo {
+    margin: 2rem 0;
+}
+
+.info {
+    font-size: .9rem;
+    margin: 2rem 0;
+    line-height: 25px;
+}
+
+.copy {
+    color: lightgray;
+}
+
+.other-site li {
+    font-weight: bold;
+    color: black;
+    border-right: 1px solid gray;
+    padding: 0 .8rem;
+}
+
+.other-site li:nth-child(7) {
+    border: 0;
+}
+
+.other-site li:last-child {
+    border: 0;
+    color: gray;
+    font-weight: 500;
+}
+
+.fa-solid {
+    padding-left: 1rem;
+}
+/*-------------footer-end---------*/
+
+
+
+
+
