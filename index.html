@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>롯데렌탈 비즈니스</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/a44593fe97.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Roboto+Condensed&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <h1 class="d-none">롯데맨탈 비즈니스 클론 코딩</h1>
+    <header>
+        <div class="h-top d-flex j-between">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" width="150px" alt="logo">
+                </a>
+            </div>
+
+            <div class="l-text">
+                <p>로그인을 하시면 더 많은 페이지를 이용하실 수 있습니다.</p>
+            </div>
+
+            <ul class="login d-flex g1">
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">법인 심사자료 제출</a></li>
+            </ul>
+        </div>
+
+        <div class="h-bottom-wrap">
+            <div class="h-bottom d-flex j-between">
+                <nav>
+                    <ul id="gnb" class="d-flex g5">
+                        <li><a href="sub.html">롯데렌터카</a></li>
+                        <li><a href="#">OA기기</a></li>
+                        <li><a href="#">물류장비</a></li>
+                        <li><a href="#">측정기</a></li>
+                        <li><a href="#">AI로봇</a></li>
+                        <li><a href="#">견적문의</a></li>
+                        <li><a href="#">고객지원</a></li>
+                    </ul>
+                </nav>
+                
+                <ul class="d-flex g2">
+                    <li><a href="#">
+                        <span class="material-symbols-outlined">
+                        search
+                        </span>
+                    </a></li>
+                    <li><a href="#">
+                        <span class="material-symbols-outlined">
+                        menu
+                        </span>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section id="carousel">
+        <div class="c-btn d-flex">
+            <div class="c-prev"><a href="#"><i class="fa-solid fa-circle-arrow-left"></i></a></div>
+            <div class="c-next"><a href="#"><i class="fa-solid fa-circle-arrow-right"></i></a></div>
+        </div>
+    </section>
+
+    <main>
+        <article id="service">
+            <h2>서비스 소개</h2>
+            <ul class="d-flex j-between">
+                <li><a href="#">
+                    <p class="t-red">롯데렌탈 비즈니스 솔루션</p>
+                    <p>간편한 견적 문의,계약인증을 통해<br>쉽고 빠른 온라인 계약관리 서비스를 제공합니다</p>
+                    <button type="button">서비스 안내</button>
+                </a></li>
+                <li><a href="#">
+                    <p class="t-red">커넥트 프로안내</p>
+                    <p>간편한 견적 문의,계약인증을 통해<br>쉽고 빠른 온라인 계약관리 서비스를 제공합니다</p>
+                    <button type="button">서비스 안내</button>
+                </a></li>
+                <li><a href="#">
+                    <p class="t-red">QA 매니저 안내</p>
+                    <p>간편한 견적 문의,계약인증을 통해<br>쉽고 빠른 온라인 계약관리 서비스를 제공합니다</p>
+                    <button type="button">서비스 안내</button>
+                </a></li>
+            </ul>
+        </article>
+
+        <article id="popularity">
+            <h2>인기상품</h2>
+            <div class="p-wrap bg-white d-flex j-between">
+                <div class="prev"><i class="fas fa-angle-left"></i></div>
+                
+                <ul class="d-flex j-center">
+                    <li><a href="#">
+                        <img src="images/s1.png" width="300px" height="150px" alt="s1">
+                        <p>노트북 Surface Laptop 4 13인치</p>
+                        <p class="t-red pl-1">별도 문의</p>
+                    </a></li>
+                    <li><a href="#">
+                        <img src="images/s2.png" width="150px" height="150px" alt="s2">
+                        <p>고소장비 작업높이 5.6M ~ 7.5M</p>
+                        <p class="pl-1">월 <span class="t-red">350,000</span>원</p>
+                    </a></li>
+                    <li><a href="#">
+                        <img src="images/s3.jpg" width="150px" height="150px" alt="s3">
+                        <p>태블릿 PC iPad Pro</p>
+                        <p class="t-red pl-1">별도 문의</p>
+                    </a></li>
+                    <li><a href="#">
+                        <img src="images/s4.jpg" width="300px" height="150px" alt="s4">
+                        <p>기타 Surface Hub 2S</p>
+                        <p class="t-red pl-1">별도 문의</p>
+                    </a></li>
+                </ul>
+                
+                <div class="next"><i class="fas fa-angle-right"></i></div>
+            </div>
+        </article>
+
+        <article>
+            <h2>추천상품</h2>
+            <div class="tabs">
+                <ul id="t-title" class="d-flex">
+                    <li><a href="#">OA기기</a></li>
+                    <li><a href="#">물류장비</a></li>
+                    <li><a href="#">측정기</a></li>
+                    <li><a href="#">AI로봇</a></li>
+                </ul>
+                <ul id="t-body" class="d-flex">
+                    <li><a href="#">
+                        <img src="images/t1.jpg" width="150px" height="150px" alt="s3">
+                        <p>데스크탑 LG 데스크탑 슬림형</p>
+                        <p class="t-red pl-1">별도 문의</p>
+                    </a></li>
+                    <li><a href="#">
+                        <img src="images/t2.jpg" width="150px" height="150px" alt="s3">
+                        <p>노트북 MacBook Pro 13형</p>
+                        <p class="t-red pl-1">별도 문의</p>
+                    </a></li>
+                    <li><a href="#">
+                        <img src="images/t3.jpg" width="150px" height="150px" alt="s3">
+                        <p>데스크탑 iMac 24형</p>
+                        <p class="t-red pl-1">별도 문의</p>
+                    </a></li>
+                    <li><a href="#">
+                        <img src="images/t4.jpg" width="150px" height="150px" alt="s3">
+                        <p>태블릿PC iPad Air</p>
+                        <p class="t-red pl-1">별도 문의</p>
+                    </a></li>
+                </ul>
+            </div>
+        </article>
+
+        <article id="rental">
+            <h2>렌탈솔루션</h2>
+            <ul id="r-top" class="d-flex j-between">
+                <li><a href="#" class="d-flex">
+                    <img src="images/r_icon1.png" alt="icon1">
+                    <p> <span>롯데렌터카/오토리스</span><br>
+                        세금 및 비용절감부터<br>차량 관제까지의 최고의 차량관리서비스</p>
+                </a></li>
+                <li><a href="#" class="d-flex">
+                    <img src="images/r_icon2.png" alt="icon2">
+                    <p><span>OA기기</span><br>
+                        비즈니스에 필요한 모든 사무용기기를<br>
+                        합리적 가격으로 제공하는 서비스</p>
+                </a></li>
+            </ul>
+
+            <ul id="r-bottom" class="d-flex j-between">
+                <li><a href="#" class="d-flex">
+                    <img src="images/r_icon3.png" alt="icon3">
+                    <p><span>물류장비</span><br>
+                        건설현장 및 물류현장의<br>편의와 안전을 책임지는 렌탈 서비스</p>
+                </a></li>
+                <li><a href="#" class="d-flex">
+                    <img src="images/r_icon4.png" alt="icon4">
+                    <p><span>측정기</span><br>
+                        국내 최다,최신의 장비 보유<br>
+                        온라인 자동화 솔루션 서비스 제공</p>
+                </a></li>
+                <li><a href="#" class="d-flex">
+                    <img src="images/r_icon5.png" alt="icon5">
+                    <p><span>AI로봇</span><br>
+                        AI로봇,키오스크 등<br>
+                        새로운 라이프스타일을<br>
+                        위한 다양한 렌탈 서비스</p>
+                </a></li>
+            </ul>
+        </article>
+
+    </main>
+
+    <aside class="d-flex j-between">
+        <div class="texts">
+            <h2>견적상담 문의</h2>
+            <p>담아두신 제품의 견적을 바로 문의해보세요.</p>
+            <p>빠르게 담당자와 연결하여 제품을 추천 받아 견적을 진행할 수 있습니다.</p>
+            <button type="button">바로가기</button>
+        </div>
+        <div class="a-img"><img src="images/a_icon.png" alt="a-icon"></div>
+    </aside>
+
+    <hr>
+
+    <footer>
+        <ul class="links d-flex">
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">회사소개</a></li>
+            <li><a href="#">개인위치 및 위치기반서비스 이용약관</a></li>
+            <li><a href="#">영상정보처리기기 운영관리 방침</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">이메일주소무단수집거부</a></li>
+            <li><a href="#">CONTACT US</a></li>
+        </ul>
+
+        <div class="f-wrap">
+            <div class="f-logo">
+                <a href="#">
+                    <img src="images/f-logo.png" width="150px" alt="f-logo">
+                </a>
+            </div>
+            <div class="info">
+                <p>롯데렌탈㈜ 대표이사 최진환 | 사업자등록번호 214-87-79183 | 통신판매업신고번호 제2010-경기안양-420호 사업자정보확인</p>
+                <p>경기도 안양시 동안구 전파로 88 신원비젼타워 8층 | 서울본사 서울시 강남구 테헤란로 422 KT타워 6~9층</p>
+                <p>오토렌탈(자동차 관련문의) 대표번호 : 1588-1230 | 일반상품렌탈(OA,측정기,물류장비 등) 대표번호:1577-5100</p>
+            </div>
+
+            <div class="d-flex j-between">
+                <div class="copy">Copyright ⓒ LOTTE rental co.ltd. All Rights Reserved.</div>
+
+                <div class="other-site">
+                    <ul class="d-flex">
+                        <li><a href="#">롯데렌터카</a></li>
+                        <li><a href="#">신차장 다이렉트</a></li>
+                        <li><a href="#">신차장 멤버십</a></li>
+                        <li><a href="#">롯데오토마켓</a></li>
+                        <li><a href="#">롯데오토리스</a></li>
+                        <li><a href="#">롯데오토케어</a></li>
+                        <li><a href="#">그린카</a></li>
+                        <li><a href="#">Lotte Famliy<i class="fa-solid fa-caret-up"></i></a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+
+            <div class="awards">
+
+            </div>
+        </div>
+
+    </footer>
+    
+</body>
+</html>
